@@ -1,0 +1,613 @@
+:root {
+    --primaryColor: #248f1b;
+    --secondaryColor: #4939fd;
+    --paragraphColor: #464646;
+    --paragraphSec: #8795a1;
+    --backgroundColor: #ffffff;
+  }
+
+   /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********BASED STYLE*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+ 
+html,
+body {
+    line-height: 1.15;
+    font-family: averta_stdregular, Helvetica Neue, Helvetica;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+text-decoration: none;
+color: #ffff;
+}
+
+.header-clr {
+    background-color: var(--primaryColor);
+}
+ 
+.header-height {
+    height: 60px;
+}
+ 
+ /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********TYPOGRAPHY*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+                                            /*********PARAGRAPH FONT_SIZES**************/
+.para-size1 {
+    font-size: 0.7rem;
+}
+
+.para-size2{
+    font-size: 1rem;
+}
+
+.para-size3 {
+    font-size: 1.3rem;
+}
+
+.para-size4{
+    font-size: 1.8rem;
+}
+
+                                            /* *************HEADERS FONT_SIZES************ */
+
+.heading-size1{
+    font-size: 1rem;
+}
+
+.heading-size2{
+    font-size: 2rem;
+}
+
+.heading-size3{
+    font-size: 2.5rem;
+}
+
+.heading-size4{
+    font-size: 3rem;
+}
+
+.heading-size5{
+    font-size: 3.8rem;
+}
+
+                                            /* *************PARAGRAPHY FONT_WEIGHT************ */
+
+.para-weight1{
+    font-weight: 100;
+}
+
+.para-weight2{
+    font-weight: 200;
+}
+
+.para-weight3{
+    font-weight: 300;
+}
+
+.para-weight4{
+    font-weight: 400;
+}
+
+.para-weight5{
+    font-weight: 500;
+}
+
+.para-weight6{
+    font-weight: 600;
+}
+
+                                            /* *************HEADERS FONT_WEIGHT************ */
+
+.heading-weight1{
+    font-weight: 100;
+}
+
+.heading-weight2{
+    font-weight: 200;
+}
+
+.heading-weight3{
+    font-weight: 300;
+}
+
+.heading-weight4{
+    font-weight: 400;
+}
+
+.heading-weight5{
+    font-weight: 500;
+}
+
+.heading-weight6{
+    font-weight: 600;
+}
+
+                                        /* *************FONT_FAMILY************* */
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Staatliches{
+    font-family: 'Staatliches', cursive;
+}
+
+
+
+/* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            *********** OUTTER SPACING STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  /* OUTTER SPACER CLASSES*/
+  .center-by_margin__auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* TOP: outter spacer sizes */
+  .margin-top-small {
+    margin-top: 2rem;
+  }
+  .margin-top-medium {
+    margin-top: 3rem;
+  }
+  .margin-top-large {
+    margin-top: 5rem;
+  }
+
+  /* RIGHT: outter spacer sizes */
+ .margin-right-small {
+   margin-right: 1rem;
+ }
+
+  .margin-right-medium {
+    margin-right: 3rem;
+  }
+  .margin-right-large {
+    margin-right: 5rem;
+  }
+
+  /* BOTTOM: outter spacer sizes */
+  .margin-bottom-small {
+    margin-bottom: 2rem;
+  }
+  .margin-bottom-medium {
+    margin-bottom: 3rem;
+  }
+  .margin-bottom-large {
+    margin-bottom: 5rem;
+  }
+
+  /* LEFT: outter spacer sizes */
+  .margin-left-small {
+    margin-left: 2rem;
+  }
+  .margin-left-medium {
+    margin-left: 3rem;
+  }
+  .margin-left-large {
+    margin-left: 5rem;
+  }
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        *********** INNER SPACING STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+  /* TOP: inner spacer sizes */
+  .padding-small {
+      padding: 0.5rem; 
+  }
+  .padding-medium {
+      padding: 2rem;
+  }
+  .padding-large {
+      padding: 4rem;
+  }
+  .padding-top-small {
+    padding-top: 1rem;
+  }
+  .padding-top-medium {
+    padding-top: 2rem;
+  }
+  .padding-top-large {
+    padding-top: 4rem;
+  }
+
+  /* RIGHT: inner spacer sizes */
+  .padding-right-small {
+    padding-right: 1rem;
+  }
+  .padding-right-medium {
+    padding-right: 2rem;
+  }
+  .padding-right-large {
+    padding-right: 4rem;
+  }
+
+  /* BOTTOM: inner spacer sizes */
+  .padding-bottom-small {
+    padding-bottom: 1rem;
+  }
+  .padding-bottom-medium {
+    padding-bottom: 2rem;
+  }
+  .padding-bottom-large {
+    padding-bottom: 4rem;
+  }
+
+  /* LEFT: inner spacer sizes */
+  .padding-left-small {
+    padding-left: 2rem;
+  }
+  .padding-left-medium {
+    padding-left: 2rem;
+  }
+  .padding-left-large {
+    padding-left: 4rem;
+  }
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********WIDTH CLASSES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.width100 {
+    width: 100%;
+  }
+  
+  .width90 {
+    width: 90%;
+  }
+  
+  .width77 {
+    width: 77%;
+  }
+  
+  .width74 {
+    width: 74%;
+  }
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********HAMBURGER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+  .hamburger {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    display: block;
+    background-color: var(--paragraphColor);
+    border-radius: 4px;
+
+
+  }
+  
+  .hamburger::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: var(--paragraphColor);
+    border-radius: 4px;
+    width: 30px;
+    height: 4px;
+    top: -8px;
+    right: 0;
+  }
+
+  .hamburger::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: var(--paragraphColor);
+    border-radius: 4px;
+    width: 30px;
+    height: 4px;
+    top: 8px;
+    right: 0;
+  }
+
+  /*
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CONTAINER DISPLAY STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.flex {
+    display: flex;
+  }
+  
+  .j-center {
+    justify-content: center;
+  }
+
+  .j-end {
+    justify-content: flex-end;
+  }
+  
+  .j-around {
+    justify-content: space-around;
+  }
+
+  .js-between {
+    justify-content: space-between;
+  }
+  
+  .js-evenly {
+    justify-content: space-evenly;
+  }
+  
+  .a-center {
+    align-items: center;
+  }
+  
+  .a-start {
+    align-items: flex-start;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .block{
+      display: block;
+  }
+  
+  .grid-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* row-gap: 1rem; */
+  }
+  
+  .grid-icons :nth-child(1) {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+  }
+  
+  .grid-icons :nth-child(2) {
+    grid-column: 4 / span 2;
+    grid-row: 2;
+    justify-self: center;
+  }
+  .grid-icons :nth-child(3) {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+    align-self: flex-start;
+    justify-self: center;
+  }
+  .grid-icons :nth-child(4) {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+  }
+  .grid-icons :nth-child(5) {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 3;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-icons :nth-child(6) {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+    justify-self: center;
+    align-self: center;
+  }
+  .grid-icons :nth-child(7) {
+    grid-column: 5;
+    grid-row: 1;
+    justify-self: end;
+  }
+  .grid-icons :nth-child(8) {
+    grid-column: 5;
+    grid-row: 3;
+    justify-self: center;
+  }
+  
+  .c-flex-reverse {
+    flex-direction: column-reverse;
+  }
+
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********POSITIONING STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.text-center {
+    text-align: center;
+  }
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+
+    /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********FLEX ITEMS STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+
+.a-self {
+    align-self: center;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CURSOR STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.cursor1 {
+    cursor: pointer;
+  }
+
+.cursor2 {
+    cursor: text;
+}
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********SLIDER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.slides {
+  transition: 300ms;
+  height: 293px;
+  min-width: 100%;
+}
+
+.slider1 {
+  background: center center/cover url(../images/imageOne.jpg);
+}
+
+.slider2 {
+  background: center center/cover url(../images/imageTwo.jpg);
+}
+
+.slider3 {
+  background: center center/cover url(../images/imageThree.jpg);
+}
+
+.content {
+  top: 10%;
+}
+
+.hero-para {
+  color: var(--backgroundColor);
+  z-index: 99;
+}
+
+
+.hero-section {
+  overflow: hidden;
+  
+}
+
+  .slides::after {
+      position: absolute;
+      display: block;
+      content: "";
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      top: 0;
+      height: 293px;
+      z-index: -1;
+      
+  } 
+
+  .dot {
+    padding: 5px;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    transition: 200ms;
+  }
+ 
+    /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********POSITION SECTION STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.font-color {
+    color: var(--backgroundColor);
+}
+
+.uploads {
+    border: 2px dotted var(--primaryColor);
+    height: 12rem;
+}
+ .color-g {
+     color: var(--primaryColor);
+ }
+
+.button-send {
+    background-color: transparent;
+    border: 2px solid var(--primaryColor);
+    border-radius: 5px;
+}
+
+    /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********RECENT UPLOAD SECTION STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+input {
+  width: 200px;
+}
+
+video {
+  width: 100%;
+}

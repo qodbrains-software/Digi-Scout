@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600&family=Staatliches&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/theme.css">
+    <title>dg Scout</title>
+</head>
+<body>
+    <header class="width100 header-clr">
+        <nav class="flex js-between width90 a-center header-height center-by_margin__auto">
+            <div class="logo">
+                <p class="heading-size2 Staatliches">DGSCOUT</p>
+            </div>
+            <div class="hamburger-container">
+                <div class="hamburger a-self"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero-container relative"> 
+        <div class="hero-section flex">
+            <div class="slider1 slides"></div>
+            <div class="slider2 slides"></div>
+            <div class="slider3 slides"></div>
+        </div>
+        <div class="main-content flex j-center">
+        <div class="content width77 absolute">
+            <div class="media">
+                <img src="./images/dig.svg" class="relative" alt="">
+            </div>
+            <h1 class="hero-para relative para-weight6 text-center montserrat para-size1 center-by_margin__auto width77 margin-top-small">
+             Become the star you always wanted to become, With
+             Digital scout you can upload your 2 minutes talent video to 
+             your dream team.</h1>
+             <div class="dots flex j-center margin-top-small">
+                <div class="dot1 dot margin-right-small"></div>
+                <div class="dot2 dot margin-right-small "></div>
+                <div class="dot3 dot"></div>
+            </div>
+            </div> 
+        </div>
+    </section>
+    <section class="positions text-center">
+        <h3 class="header-clr font-color padding-top-small padding-bottom-small">Select the position you play</h3>
+        <h4 class="color-g margin-top-small width77 center-by_margin__auto">You get to select one or two of your best position</h4>
+        <div>
+            <img src="./images/ground.svg" alt="ground" class="width77 margin-top-small">
+        </div>
+        <form class="uploads cursor1 color-g width77 center-by_margin__auto margin-top-small flex flex-col j-center">
+            <i class="upload ri-upload-cloud-fill"></i>
+            <P class="">upload</P>
+            <p>video(mp4 2mins max)</p>
+            <div class="inputs-container flex flex-col a-center">
+                <input type='text' class="profile-name" placeholder="Your Name">
+                <input type='file' accept="image/*" class="profile-img padding-top-small">
+                <input type='file' accept="video/*" class="profile-aud padding-top-small">
+            </div>
+        </form>
+        <button class="button-send width77 color-g center-by_margin__auto margin-top-small padding-small" type="submit">Send</button>
+    </section>
+    <section class="recent-uploads">
+        <h4 class="text-center color-g margin-top-small">Recent Uploads</h4>
+        <div class="profile header-clr margin-top-small flex j-around a-center padding-top-small padding-bottom-small">
 
+            <img src="" class="img" alt="image">
+            <h2 class="font-color">Joshua Koje</h2>
+        </div>
+        <video class="aud"
+        controls
+        src=" "></video>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
